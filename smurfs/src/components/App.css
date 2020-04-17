@@ -1,3 +1,94 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: linear-gradient(to right, rgb(121, 224, 255), rgb(255, 196, 206));
+}
+
+body:focus {
+  outline: none;
+}
+
+h2 {
+  color: rgb(62, 133, 145);
+}
+
+.smurfCard {
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 8px;
+  width: 40%;
+  background-color: rgb(121, 224, 255);
+  color: white;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.smurfCard:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(255, 196, 206);
+}
+
+.submit {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: rgb(121, 224, 255);
+  border: 3px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: rgb(255, 196, 206);
+}
+
+input {
+  padding: 5px;
+}
+
+.editButton {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: rgb(121, 224, 255);
+  border: 3px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.editButton:hover {
+  background-color: rgb(86, 177, 204);
+}
+
+.modal {
+  text-align: center;
+}
+
+.modal:focus {
+  outline: none;
+}
+
+.editTitle {
+  color: rgb(55, 163, 158);
+}
+
+.modalBox {
+  background: white;
+  width: 40%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 8px;
+  background-color: rgb(255, 196, 206);
+}
